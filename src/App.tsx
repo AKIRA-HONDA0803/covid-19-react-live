@@ -38,6 +38,7 @@ import {
   SubTitle
 } from 'chart.js';
 import PieChart from './features/covid/PieChart/PieChart';
+import SwitchCountry from './features/covid/SwitchCountry/SwitchCountry';
 
 Chart.register(
   ArcElement,
@@ -77,6 +78,7 @@ function App() {
         <Cards />
         <Charts />
         <PieChart />
+        <SwitchCountry />
       </header>
     </div>
   );
