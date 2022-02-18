@@ -11,7 +11,7 @@ const Charts: React.FC = () => {
   const country = useSelector(selectCountry);
   
   const barChart = data && (
-    <Bar
+      <Bar
       data={{
         labels: ["Infected", "Recovered", "Deaths"],
         datasets: [

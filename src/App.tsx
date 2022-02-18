@@ -37,6 +37,7 @@ import {
   Tooltip,
   SubTitle
 } from 'chart.js';
+import PieChart from './features/covid/PieChart/PieChart';
 
 Chart.register(
   ArcElement,
@@ -75,6 +76,7 @@ function App() {
       <header className="App-header">
         <Cards />
         <Charts />
+        <PieChart />
       </header>
     </div>
   );
